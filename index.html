@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <form id="createForm">
+        <h2>Create a new product</h2>
+        <input class="inputElement" type="text" placeholder="Enter product name">
+        <br>
+        <input class="inputElement" type="url" placeholder="Enter image link">
+        <br>
+        <input class="inputElement" type="number" placeholder="Enter product discount">
+        <br>
+        <textarea class="inputElement" cols="30" rows="10" placeholder="Enter product description"></textarea>
+        <br>
+        <button>Create product</button>
+    </form>
+    
+    <br><br>
+    
+    <form id="updateForm" class="update">
+        <h2>Update a product</h2>
+        <input class="inputElement" type="text" placeholder="Enter product name">
+        <br>
+        <input class="inputElement" type="url" placeholder="Enter image link">
+        <br>
+        <input class="inputElement" type="number" placeholder="Enter product discount">
+        <br>
+        <textarea class="inputElement" cols="30" rows="10" placeholder="Enter product description"></textarea>
+        <br>
+        <button>Update product</button>
+    </form>
+    
+    <br><br>
+    
+   
+    
+    <div id="products"></div>
+
+    <script src="./app.js"></script>
+</body>
+</html>
